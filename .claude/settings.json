@@ -8,6 +8,7 @@
     }
   },
   "enabledPlugins": {
-    "instagram-agent@instagram-agent-skill": true
+    "instagram-agent@instagram-agent-skill": true,
+    "youtube-agent@instagram-agent-skill": true
   }
 }

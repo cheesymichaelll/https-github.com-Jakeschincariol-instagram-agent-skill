@@ -336,3 +336,17 @@ Sibling repo, same idea for a different platform:
 ## License
 
 MIT. Take it, change it, ship it.
+
+## Also in this repo: the YouTube agent skill
+
+[`youtube/`](youtube/) holds the eleven-skill YouTube pack (`/yt-script`, `/yt-package`,
+`/yt-edit`, `/yt-retention`, `/yt-viral` and more), taken from
+[Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT).
+This repo's marketplace lists it as a second plugin, `youtube-agent`, and the project's
+`.claude/settings.json` turns it on. To install it globally instead:
+
+```bash
+cp -r youtube/skills/yt-* ~/.claude/skills/
+```
+
+See [`youtube/README.md`](youtube/README.md) for the full guide.

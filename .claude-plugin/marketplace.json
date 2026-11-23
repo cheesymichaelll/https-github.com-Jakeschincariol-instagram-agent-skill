@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "instagram-agent-skill",
-  "description": "The Instagram agent skill pack for Claude",
+  "description": "The Instagram and YouTube agent skill packs for Claude",
   "owner": {
     "name": "Jake Schincariol",
     "url": "https://opusjake.ai"
@@ -13,6 +13,13 @@
       "source": "./",
       "category": "productivity",
       "homepage": "https://github.com/Jakeschincariol/instagram-agent-skill"
+    },
+    {
+      "name": "youtube-agent",
+      "description": "Eleven Claude skills that run a YouTube channel, including a scored hook panel, a title and thumbnail linter, an edit decision list, a retention reader and a virality engine.",
+      "source": "./youtube",
+      "category": "productivity",
+      "homepage": "https://github.com/Jakeschincariol/youtube-agent-skill"
     }
   ]
 }
